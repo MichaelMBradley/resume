@@ -1,0 +1,11 @@
+# TeX build artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex*
+*.out
+*.xdv
+
+# Don't commit output
+*.pdf
