@@ -71,12 +71,7 @@
 \newcommand{\minorSection}[1]{\color{subheadings}\raggedright\scshape\customRalewayMedium\fontsize{11pt}{12pt}\selectfont{#1}\normalfont}
 
 % Project command
-\newcommand{\Project}[2]{
-\runsubsection{
-\href{#2}{#1}
-}
-    \hfill
-}
+\newcommand{\Project}[2]{\runsubsection{\href{#2}{\underline{#1}}}\hfill}
 
 % Underlined link command
 \newcommand{\underlinedLink}[2]{\underline{\href{#1}{#2}}}

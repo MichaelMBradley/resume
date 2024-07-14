@@ -2,16 +2,24 @@
 
 \projectHeading{Real-time Shadow Simulator}{https://github.com/MichaelMBradley/perlin-shadows}{C++, OpenGL}
 \begin{bullets}
-    \item this was fun :3 % TODO: Fill out
+    \item Built an OpenGL renderer in C++ that could cast real-time shadows on over 130M vertices
+    \item Implemented a custom Perlin noise generator optimized to generate tiles in parallel
+    \item Created lighting solution that scaled as needed so the renderer was limited only by VRAM
+    \item Optimized matrix and vector operations with the GLM library
 \end{bullets}
 
-% TODO: Mention https://github.com/MichaelMBradley/nbody ?
+\projectHeading{N-Body M-Dimensional Gravitation Simulator}{https://github.com/MichaelMBradley/nbody}{Python, NumPy}
+\begin{bullets}
+    \item Implemented time-stepped gravity simulations over N bodies in 2 or 3 dimensions
+    \item Set up functions such that an arbitrary number of dimensions could be used (visualization only for 2D/3D)
+    \item Found initial conditions for a number of somewhat stable configurations of up to 8 bodies
+\end{bullets}
 
-\projectHeading{Electronic Holiday Card Distribution}{https://github.com/MichaelMBradley/holidaycards2022}{JavaScript, HTML5, CSS3}
+\projectHeading{Electronic Holiday Card Distribution}{https://github.com/MichaelMBradley/holidaycards2022}{JavaScript, HTML, CSS}
 \begin{bullets}
     \item Created a website from scratch (deployed using GitHub Pages) to distribute holiday cards to friends and family
-    \item Used JavaScript APIs to encrypt the messages using 256-bit AES-CTR to ensure messages were only read by the intended recipient
-    \item Used a graphics library (\href{https://p5js.org}{p5.js}) to generate unique assets and animated backgrounds
+    \item Used JavaScript APIs to encrypt the messages to ensure they were only read by the intended recipient
+    \item Integrated the \href{https://p5js.org}{\underline{p5.js}} graphics library to generate unique assets and animated backgrounds
     \item Implemented a limited set of markdown functionality with regex replacement
 \end{bullets}
 
