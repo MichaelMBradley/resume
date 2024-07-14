@@ -1,3 +1,14 @@
 {
-	"latex-workshop.latex.recipe.default": "latexmk (xelatex)"
+	"latex-workshop.latex.recipe.default": "latexmk (xelatex)",
+	"cSpell.words": [
+		"Arif's",
+		"discoverability",
+		"Emids",
+		"MISRA",
+		"mmbradley",
+		"Perlin",
+		"Phong",
+		"Résumé",
+		"Telehealth"
+	]
 }
